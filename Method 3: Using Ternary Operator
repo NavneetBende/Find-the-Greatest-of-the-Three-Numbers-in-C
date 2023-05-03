@@ -1,0 +1,18 @@
+#include <stdio.h> 
+int main ()
+{
+    int num1, num2, num3;
+    
+    num1=12,num2=98,num3=84;
+    
+    int temp, result;    
+    
+    // find the largest b/w num1 and num2 & store in temp
+    temp = num1>num2 ? num1:num2;
+    
+    // find the largest b/w temp and num3 & finally printing it
+    result = temp>num3 ? temp:num3;    
+     
+    printf(" %d is the largest", result);
+    return 0;
+}
