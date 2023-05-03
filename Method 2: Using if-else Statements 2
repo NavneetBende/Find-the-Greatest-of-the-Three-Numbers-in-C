@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main ()
+{
+    int num1, num2, num3;
+    
+    num1=13,num2=45,num3=27;
+
+    //comparing num1 with other numbers
+    if ((num1 >= num2) && (num1 >= num3))
+        printf("%d is the greatest", num1);
+        
+    //comparing num2 with other numbers
+    else if ((num2 >= num1) && (num2 >= num3))
+         printf("%d is the greatest", num2);
+    
+    // num3 has to be greatest then if not above
+    else
+         printf("%d is the greatest", num3);
+    
+    return 0;
+}
